@@ -61,6 +61,7 @@
 .name {
   font-weight: 700;
   font-size: 24px;
+  color: #000;
 }
 
 .date {
@@ -104,10 +105,7 @@
   }
 
   .review-box::before {
-    height: 20px;
-    top: -3px;
-    left: 40%;
-    width: 200px;
+   display: none;
   }
 
   .name {
