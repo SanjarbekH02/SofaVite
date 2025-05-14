@@ -36,6 +36,11 @@
   margin: 5px 0;
 }
 
+.contact-info a,
+.social-links a{
+  color: #FFF;
+}
+
 .contact-info i,
 .social-links i {
   font-size: 30px;

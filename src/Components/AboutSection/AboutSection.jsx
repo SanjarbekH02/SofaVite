@@ -5,9 +5,9 @@ import { useTranslation } from 'react-i18next';
 const AboutSection = () => {
     const { t } = useTranslation();
     return (
-        <div className="about-section">
+        <div id='about' className="about-section">
             <div className="container">
-                <h1 className="about-title">{t('about.title')}</h1>
+                <h1 className="about-title services-title-top">{t('about.title')}</h1>
                 <div className="about-container">
                     <div className="image-placeholder">
                         {/* Bu yerga rasm joylashadi */}

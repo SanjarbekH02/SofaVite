@@ -8,7 +8,7 @@ export default function Reviews() {
   const reviews = t('reviews.items', { returnObjects: true });
 
   return (
-    <section className="reviews-section">
+    <section id='reviews' className="reviews-section">
       <h4 className="services-title-top">{t('reviews.topTitle')}</h4>
       <h2 className="title">{t('reviews.mainTitle')}</h2>
       <div className="reviews-container container">

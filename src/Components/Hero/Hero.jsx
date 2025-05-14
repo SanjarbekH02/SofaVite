@@ -42,16 +42,14 @@ const HeroSection = () => {
           <div className={`menu-toggle ${navOpen ? 'open' : ''}`} onClick={() => setNavOpen(!navOpen)}>
             <div></div>
           </div>
+                <ul className={`nav-links ${navOpen ? 'open' : ''}`}>
+                <li><a href="#about">{t('aboutNav')}</a></li>
+                <li><a href="#services">{t('servicesNav')}</a></li>
+                <li><a href="#reviews">{t('reviewsNav')}</a></li>
+                <li><a href="#contacts">{t('contactsNav')}</a></li>
+                </ul>
 
-          {/* Navigation links */}
-          <ul className={`nav-links ${navOpen ? 'open' : ''}`}>
-            <li>{t('aboutNav')}</li>
-            <li>{t('servicesNav')}</li>
-            <li>{t('reviewsNav')}</li>
-            <li>{t('contactsNav')}</li>
-          </ul>
-
-          {/* Language select */}
+                {/* Language select */}
           <div ref={selectRef} className="language-select">
             <div className="selected" onClick={() => setOpen(!open)}>
               <img className="flag-img" src={flag} alt="" />

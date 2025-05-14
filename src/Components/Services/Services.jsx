@@ -72,14 +72,14 @@ const ServicesSection = () => {
     ];
 
     return (
-        <div className="services-section">
+        <div id='services' className="services-section">
             <h3 className="services-title-top">{t('services.topTitle')}</h3>
             <h2 className="services-title">{t('services.mainTitle')}</h2>
             <div className="services-grid">
                 {services.map((service, index) => (
                     <div key={index} className="service-card">
                         <img className='card-img' src={service.image} alt="" />
-                        <div>
+                        <div className='card-content'>
                             <h3>{service.title}</h3>
                             <ul>
                                 {service.points.map((point, i) => (

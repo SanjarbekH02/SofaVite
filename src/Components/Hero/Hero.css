@@ -29,6 +29,10 @@
     font-weight: bold;
 }
 
+.nav-links a{
+    color: #FBFCFA;
+}
+
 .lang-btn {
     width: 100px;
     background-color: white;
@@ -143,7 +147,7 @@
 
 .menu-toggle {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 10px;
   width: 30px;
   height: 25px;
@@ -160,7 +164,7 @@
   /* right: 10px; */
   height: 3px;
   width: 100%;
-  background-color: #000;
+  background-color: #fff;
   transition: 0.3s ease;
 }
 
@@ -181,11 +185,13 @@
 .menu-toggle.open::before {
   transform: rotate(45deg);
   top: 40%;
+  background-color: #000;
 }
 
 .menu-toggle.open::after {
   transform: rotate(-45deg);
   bottom: 50%;
+  background-color: #000;
 }
 
 .menu-toggle.open div {
