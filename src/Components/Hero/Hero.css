@@ -235,6 +235,10 @@
     pointer-events: none;
   }
 
+  .nav-links a{
+    color: #000;
+}
+
   .nav-links.open {
     transform: translateY(0);
     opacity: 1;

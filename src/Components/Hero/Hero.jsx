@@ -43,10 +43,10 @@ const HeroSection = () => {
             <div></div>
           </div>
                 <ul className={`nav-links ${navOpen ? 'open' : ''}`}>
-                <li><a href="#about">{t('aboutNav')}</a></li>
-                <li><a href="#services">{t('servicesNav')}</a></li>
-                <li><a href="#reviews">{t('reviewsNav')}</a></li>
-                <li><a href="#contacts">{t('contactsNav')}</a></li>
+                <li><a onClick={() => setNavOpen(!navOpen)} href="#about">{t('aboutNav')}</a></li>
+                <li><a onClick={() => setNavOpen(!navOpen)} href="#services">{t('servicesNav')}</a></li>
+                <li><a onClick={() => setNavOpen(!navOpen)} href="#reviews">{t('reviewsNav')}</a></li>
+                <li><a onClick={() => setNavOpen(!navOpen)} href="#contacts">{t('contactsNav')}</a></li>
                 </ul>
 
                 {/* Language select */}
