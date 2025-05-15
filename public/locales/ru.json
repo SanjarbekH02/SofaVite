@@ -80,21 +80,21 @@
     "mainTitle": "Связаться С Нами",
     "showMore": "Показать больше",
     "items": [
-      {
-        "name": "Имя Фамилия",
-        "date": "ГОД, МЕСЯЦ",
-        "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
-      },
-      {
-        "name": "Имя Фамилия",
-        "date": "ГОД, МЕСЯЦ",
-        "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
-      },
-      {
-        "name": "Имя Фамилия",
-        "date": "ГОД, МЕСЯЦ",
-        "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
-      }
+    {
+      "name": "Зухра Каримова",
+      "date": "2025, Январь",
+      "text": "“ Впервые путешествовала в Турцию с Sofa Marvachorsu. Это был замечательный опыт! Экскурсии в Стамбуле и Каппадокии были незабываемыми. Все услуги были организованы на высшем уровне. Однозначно рекомендую! “"
+    },
+    {
+      "name": "Аббос Тулаганов",
+      "date": "2025, Март",
+      "text": "“ Мы организовали поездку в Самарканд через эту компанию. Дорога, гостиница и экскурсии были очень хорошо спланированы. Спасибо, Sofa Marvachorsu! “"
+    },
+    {
+      "name": "Дилафруз Баирова",
+      "date": "2025, Апрель",
+      "text": "“ Каждая деталь была продумана. Служба поддержки всегда на связи, маршруты насыщенные и интересные. Обязательно воспользуюсь снова! “"
+    }
     ]
   },
 
@@ -102,7 +102,9 @@
     "contacts": "КОНТАКТЫ",
     "getInTouch": "Связаться с Нами",
     "address": "Тошкент шахар, Олмазор тумани, ул. Беруний, дом 8",
-    "socialTitle": "Наши Социальные Сети"
+    "socialTitle": "Наши Социальные Сети",
+    "director": "Директор:",
+    "workingHours": "Режим работы: каждый день"
   }
 
   

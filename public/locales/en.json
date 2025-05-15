@@ -79,21 +79,21 @@
         "mainTitle": "Contact Us",
         "showMore": "Show More",
         "items": [
-            {
-                "name": "Name Surname",
-                "date": "YEAR, MONTH",
-                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
-            },
-            {
-                "name": "Name Surname",
-                "date": "YEAR, MONTH",
-                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
-            },
-            {
-                "name": "Name Surname",
-                "date": "YEAR, MONTH",
-                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
-            }
+        {
+            "name": "Zuhra Karimova",
+            "date": "January, 2025",
+            "text": "“I traveled to Turkey for the first time with Sofa Marvachorsu. It was a wonderful experience! The excursions in Istanbul and Cappadocia were unforgettable. All services were organized at the highest level. I absolutely recommend them!”"
+        },
+        {
+            "name": "Abbos To'laganov",
+            "date": "March, 2025",
+            "text": "“We organized a trip to Samarkand through this company. The journey, hotel, and excursions were very well planned. Thank you, Sofa Marvachorsu!”"
+        },
+        {
+            "name": "Dilafruz Bayirova",
+            "date": "April, 2025",
+            "text": "“Every detail was thought out. The support service was always in touch, and the routes were rich and interesting. I will definitely use their services again!”"
+        }
         ]
     },
 
@@ -101,6 +101,8 @@
         "contacts": "CONTACTS",
         "getInTouch": "Get in Touch",
         "address": "Tashkent city, Olmazor district, Beruniy street, house 8",
-        "socialTitle": "Our Social Networks"
+        "socialTitle": "Our Social Networks",
+        "director": "Director",
+        "workingHours": "Working hours: Every day"
     }
 }
