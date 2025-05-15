@@ -10,7 +10,8 @@ import { useTranslation } from 'react-i18next';
 
 
 const HeroSection = () => {
-  const [selected, setSelected] = useState({ label: 'Ru', value: 'ru' });
+  const language = localStorage.getItem("i18nextLng")
+  const [selected, setSelected] = useState({ label: language.toUpperCase(), value: language.toUpperCase() });
   const [open, setOpen] = useState(false);
   const selectRef = useRef(null);
   const [flag, setFlag] = useState(Ru);
@@ -53,7 +54,7 @@ const HeroSection = () => {
           <div ref={selectRef} className="language-select">
             <div className="selected" onClick={() => setOpen(!open)}>
               <img className="flag-img" src={flag} alt="" />
-              {selected ? selected.label : 'Ru'}
+              {selected ? selected.label : language}
             </div>
             {open && (
               <div className="options">

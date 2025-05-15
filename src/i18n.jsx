@@ -6,7 +6,7 @@ import uzTranslation from '../public/locales/uz.json'
 import ruTranslation from '../public/locales/ru.json'
 import enTranslation from '../public/locales/en.json'
 
-const laungage = localStorage.getItem('i18nextLng') || 'en'
+const laungage = localStorage.getItem('i18nextLng') || 'ru'
 
 i18n
 .use(I18NextHttpBackend)
