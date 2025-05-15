@@ -17,15 +17,26 @@ const Footer = () => {
                     <p><i className="ri-mail-line"></i> <a href="mailto:sofamarva.chorsu@gmail.com">sofamarva.chorsu@gmail.com</a></p>
                     <p><i className="ri-user-line"></i> {t('footer.director')} Fathullayev Dilmurod Farhod O'g'li</p>
                     <p><i className="ri-time-line"></i> {t('footer.workingHours')} , 09:00 – 20:00</p>
-
                 </div>
 
                 <h2 className="social-title">{t('footer.socialTitle')}</h2>
                 <div className="social-links">
-                    <p><i className="ri-telegram-line"></i> sofamarva.chorsu</p>
-                    <p><i className="ri-instagram-line"></i> sofamarva.chorsu</p>
-                    <p><i className="ri-tiktok-line"></i> sofamarva.chorsu</p>
-                    <p><i className="ri-facebook-box-line"></i> sofamarva.chorsu</p>
+                    <p>
+                        <i className="ri-telegram-line"></i>
+                        <a href="https://t.me/Sofa_Marva_Tour" target="_blank" rel="noopener noreferrer">sofamarva.chorsu</a>
+                    </p>
+                    <p>
+                        <i className="ri-instagram-line"></i>
+                        <a href="https://www.instagram.com/sofamarva.chorsu?igsh=bGwxN2p0Nms0dnAx" target="_blank" rel="noopener noreferrer">sofamarva.chorsu</a>
+                    </p>
+                    {/* <p>
+                        <i className="ri-tiktok-line"></i>
+                        <a href="https://www.tiktok.com/@sofamarva.chorsu" target="_blank" rel="noopener noreferrer">sofamarva.chorsu</a>
+                    </p>
+                    <p>
+                        <i className="ri-facebook-box-line"></i>
+                        <a href="https://facebook.com/sofamarva.chorsu" target="_blank" rel="noopener noreferrer">sofamarva.chorsu</a>
+                    </p> */}
                 </div>
             </div>
         </div>
